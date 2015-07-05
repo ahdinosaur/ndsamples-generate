@@ -12,7 +12,6 @@ test('generate sin wave', function (t) {
 
   function sin (x) {
     return function (t) {
-//      console.log(t, Math.sin(2 * Math.PI * t * x))
       return Math.sin(2 * Math.PI * t * x)
     }
   }
