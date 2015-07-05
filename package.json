@@ -1,0 +1,40 @@
+{
+  "name": "ndsamples-generate",
+  "version": "1.0.0",
+  "description": "generate ndsamples with a function",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livejs/ndsamples-generate.git"
+  },
+  "keywords": [
+    "ndsamples",
+    "audio",
+    "generate",
+    "samples",
+    "ndarray"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livejs/ndsamples-generate/issues"
+  },
+  "homepage": "https://github.com/livejs/ndsamples-generate#readme",
+  "devDependencies": {
+    "almost-equal": "^1.0.0",
+    "lodash.range": "^3.0.1",
+    "tape": "^4.0.0",
+    "through2": "^2.0.0"
+  },
+  "dependencies": {
+    "defined": "^1.0.0",
+    "inherits": "^2.0.1",
+    "lodash.slice": "^3.0.0",
+    "ndarray-fill": "^1.0.1",
+    "readable-stream": "^2.0.1",
+    "zeros": "^1.0.0"
+  }
+}
