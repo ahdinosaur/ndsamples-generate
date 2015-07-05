@@ -18,7 +18,7 @@ function SampleGenerator (opts) {
   })
 
   this.dtype = defined(opts.dtype, 'float32')
-  this.shape = defined(opts.shape, [1, 1024]) 
+  this.shape = defined(opts.shape, [1024, 1])
   this.rate = defined(opts.rate, 44100)
   this.fn = defined(opts.fn, function (t) { return 0 })
 
